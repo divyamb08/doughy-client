@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5dc;
+}
+
+.login-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+.login-textarea {
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.login-submit-button {
+  border-radius: 5px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #ffcccb;
+  border: none;
+  cursor: pointer;
+}
+
+.login-signup {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-signup-url {
+  cursor: pointer;
+  color: #0000ee;
+}
+
+.login-signup-url:hover {
+  text-decoration: underline;
+}
+
+.login-error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.login-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-or {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.login-social-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-social-button {
+  width: 40px;
+  height: 40px;
+}

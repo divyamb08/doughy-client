@@ -1,0 +1,84 @@
+.split-schema-wrapper {
+  display: flex;
+}
+
+.split-schema-wrapper > * {
+  margin: 0 5px;
+}
+
+.transaction-total-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-total-input {
+  margin-top: 5px;
+  text-align: center;
+  height: 20px;
+  width: 50px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.payment-row-wrapper {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.payment-row-wrapper > * {
+  margin: 0 20px;
+}
+
+.username-input {
+  padding: 8px;
+  height: 10px;
+  width: 150px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.button-center {
+  position: absolute;
+  right: calc(50% - 100px);
+}
+
+.current-payments-header {
+  font-size: 24px;
+}
+.main-payments{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #F1FFE0;
+  overflow: hidden;
+}
+.main::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.payment-status-row {
+  border-radius: 15px; 
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.completed-row {
+  background-color: #05FF2D;
+}
+
+.waiting-row {
+  background-color: #0094FF;
+}
+
+.rejected-row {
+  background-color: #FF0000;
+}
